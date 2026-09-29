@@ -3,7 +3,7 @@ import PageHero from "../components/PageHero";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Link } from "react-router-dom";
-import profilePhoto from "../assets/230430116008.png"; // reusing your existing portrait
+import profilePhoto from "../assets/photo.png"; // reusing your existing portrait
 import Footer from "../components/Footer";
 import Fixdivider from "../components/Fixdivider";
 import Capabilities from "../sections/Capabilities";

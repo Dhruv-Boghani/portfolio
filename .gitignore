@@ -22,5 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-*.md
 .agents/*
+.agents/AGENTS.md

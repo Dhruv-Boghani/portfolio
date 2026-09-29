@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowUpRight, MapPin, Code2 } from "lucide-react";
-import profilePhoto from "../assets/230430116008.png";
+import profilePhoto from "../assets/photo.png";
 
 const Hero = () => {
   return (
