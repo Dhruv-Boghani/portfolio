@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#bg-grad)" />
+
+  <rect width="62" height="62" x="1" y="1" rx="15" fill="none" stroke="#334155" stroke-width="1" opacity="0.6"/>
+
+  <!-- Centered 'D' Logo (Shifted +2px Right for visual balance) -->
+  <path d="M17 13 H28 C43 13 51 22 51 32 C51 42 43 51 28 51 H17 Z M26 22 V42 H28 C37 42 41 38 41 32 C41 26 37 22 28 22 Z"
+        fill="url(#logo-grad)"
+        fill-rule="evenodd"
+        filter="url(#glow)" />
+</svg>
